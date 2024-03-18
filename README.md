@@ -17,7 +17,7 @@ This project implements a machine learning model to detect phishing domains and 
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/phishing-detection.git](https://github.com/your-username/phishing-detection.git)
+    git clone https://github.com/instax-dutta/VeritasV1.git
     ```
 
 2.  **Install Dependencies:**
