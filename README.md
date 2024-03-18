@@ -5,7 +5,7 @@
 This project implements a machine learning model to detect phishing domains and protect users from potential online scams.  The core components include:
 
 *   **Feature Engineering:** A carefully designed set of features is extracted from domain names to distinguish between legitimate and phishing websites.
-*   **Machine Learning Model:** A Random Forest classifier (or your chosen model) is trained on a dataset of known phishing and legitimate domains.
+*   **Machine Learning Model:** A Random Forest classifier is trained on a dataset of known phishing and legitimate domains.
 *   **Prediction:** The trained model is used to predict whether a new domain is likely to be a phishing attempt.
 
 **Dataset**
