@@ -29,14 +29,14 @@ def extract_domains_efficiently(input_filename, output_folder, domains_per_file=
             if not domains:  # No more domains in the file
                 break
 
-            output_filename = os.path.join(output_folder, f'domains_{output_file_index}.txt')
+            output_filename = os.path.join(output_folder, f'links_{output_file_index}.txt')
             with open(output_filename, 'w') as outfile:
                 outfile.writelines(domain + '\n' for domain in domains)
 
             domains_extracted += len(domains)
             output_file_index += 1
 
-    print(f"Extracted a total of {domains_extracted} domains.")
+    print(f"Extracted a total of {domains_extracted} links.")
 
 # Example usage
-extract_domains_efficiently('phishing_domains.txt', 'divided') 
+extract_domains_efficiently('phishing_links.txt', 'divided2') 
